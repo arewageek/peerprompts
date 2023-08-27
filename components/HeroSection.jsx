@@ -38,7 +38,7 @@ export const HeroSection = () => {
     })
     
     return (
-        <div className="w-full h-[50vh] py-[15vh]">
+        <div className="w-full min-h-[50vh] py-[15vh]">
             <animated.h2 
                 className="font-bold text-black text-4xl md:text-9xl pb-4"
                 style={{
